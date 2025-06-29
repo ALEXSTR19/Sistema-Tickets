@@ -6,7 +6,7 @@ import { MatToolbar } from '@angular/material/toolbar';
 @Component({
   selector: 'app-admin-template',
   templateUrl: './admin-template.component.html',
-  styleUrl: './admin-template.component.css'
+  styleUrls: ['./admin-template.component.css']
 })
 export class AdminTemplateComponent {
 

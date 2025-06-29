@@ -9,7 +9,7 @@ import Swal from 'sweetalert2';
 @Component({
   selector: 'app-new-ticket',
   templateUrl: './new-ticket.component.html',
-  styleUrl: './new-ticket.component.css'
+  styleUrls: ['./new-ticket.component.css']
 })
 export class NewTicketComponent implements OnInit{
   ticketFormGroup!: FormGroup;
