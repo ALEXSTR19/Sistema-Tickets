@@ -10,7 +10,7 @@ import { Router } from '@angular/router';
 @Component({
   selector: 'app-tecnicos',
   templateUrl: './tecnicos.component.html',
-  styleUrl: './tecnicos.component.css'
+  styleUrls: ['./tecnicos.component.css']
 })
 export class TecnicosComponent implements OnInit {
 

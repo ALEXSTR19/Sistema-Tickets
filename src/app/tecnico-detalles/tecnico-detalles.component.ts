@@ -8,7 +8,7 @@ import { Tecnico } from '../models/tecnicos.model'; // Adjust the import path as
 @Component({
   selector: 'app-tecnico-detalles',
   templateUrl: './tecnico-detalles.component.html',
-  styleUrl: './tecnico-detalles.component.css'
+  styleUrls: ['./tecnico-detalles.component.css']
 })
 export class TecnicoDetallesComponent {
   tecnico!: Tecnico;
